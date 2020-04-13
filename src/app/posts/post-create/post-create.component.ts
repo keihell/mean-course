@@ -21,7 +21,7 @@ export class PostCreateComponent{
 
 		this.postService.addPost(form.value.title, form.value.content);
 
-		form.reset();
+		form.resetForm();
 	}
 
 	getTitleErrorMessage(title: NgModel){
